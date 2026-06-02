@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYMENT_PATH="/home/YOUR_CPANEL_USERNAME/public_html"
+    - export DEPLOYMENT_PATH="/home/wckuo/public_html"
     - export NODE_VERSION="20"
     - export BUN_INSTALL="$HOME/.bun"
     - export PATH="$BUN_INSTALL/bin:$PATH"
