@@ -1,0 +1,30 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYMENT_PATH="/home/YOUR_CPANEL_USERNAME/public_html"
+    - export NODE_VERSION="20"
+    - export BUN_INSTALL="$HOME/.bun"
+    - export PATH="$BUN_INSTALL/bin:$PATH"
+
+    # Install Bun if not present
+    - |
+      if ! command -v bun &> /dev/null; then
+        curl -fsSL https://bun.sh/install | bash
+        export PATH="$HOME/.bun/bin:$PATH"
+      fi
+
+    # Install dependencies
+    - bun install --frozen-lockfile
+
+    # Build the project
+    - bun run build
+
+    # Clear old deployment and copy new build
+    - rm -rf $DEPLOYMENT_PATH/*
+    - cp -r dist/* $DEPLOYMENT_PATH/
+
+    # Copy public assets if not already included in dist
+    - |
+      if [ -d "public" ] && [ ! -d "$DEPLOYMENT_PATH/public" ]; then
+        cp -r public $DEPLOYMENT_PATH/
+      fi
