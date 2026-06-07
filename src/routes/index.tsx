@@ -26,11 +26,11 @@ function Home() {
               Partytältuthyrning
             </span>
             <h1 className="mt-4 font-display text-5xl font-semibold leading-tight text-foreground md:text-6xl">
-              Tält som lyfter <span className="text-primary">festen</span>.
+              Vi täcker <span className="text-primary">festen</span>
             </h1>
             <p className="mt-5 max-w-lg text-lg text-muted-foreground">
-              Tälthjältarna hyr ut partytält och evenemangstält i flera storlekar — från
-              små trädgårdsfester till stora bröllop och företagsevent. Vi levererar,
+              Hyr ut partytält och välj från flera storlekar — från små
+              trädgårdsfester till stora bröllop och företagsevent. Vi levererar,
               reser och hämtar.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
@@ -56,11 +56,7 @@ function Home() {
         <div className="mx-auto max-w-4xl px-6 py-20 text-center">
           <h2 className="font-display text-4xl text-foreground">Hyr partytält av Tälthjältarna</h2>
           <p className="mt-5 text-lg leading-relaxed text-muted-foreground">
-            Planerar du en utomhusfest, ett bröllop eller ett företagsevent och vill skapa
-            en oförglömlig upplevelse? Då har Tälthjältarna lösningen. Hos oss hyr du
-            partytält av hög kvalitet som kan anpassas till just ditt evenemang. Ett
-            partytält är inte bara skydd mot regn eller sol — det är en arena där minnen
-            skapas och en stilren bakgrund till dina foton.
+            När gästerna börjar samlas, musiken startar och kvällen tar form ska allt bara fungera. Vi på Tälthjältarna skapar platsen där din fest får liv – med partytält, bord och stolar för allt från student och examen till bröllop och födelsedagar.
           </p>
         </div>
       </section>
@@ -70,8 +66,7 @@ function Home() {
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="font-display text-4xl">Perfekt för alla tillfällen</h2>
           <p className="mt-4 text-muted-foreground">
-            Bröllop, julbord, studentfest, möhippa, företagsevent eller privat
-            sammankomst — vi har tält för alla typer av tillställningar.
+            &nbsp;
           </p>
         </div>
         <div className="mt-12 grid gap-6 md:grid-cols-3">
@@ -79,8 +74,8 @@ function Home() {
             { title: "Bröllop", desc: "Elegant ram för er stora dag, oavsett väder." },
             { title: "Födelsedagar", desc: "Från intima firanden till storslagna kalas." },
             { title: "Företagsevent", desc: "Professionell miljö för kundträffar och fester." },
-            { title: "Julbord & högtider", desc: "Värme och stämning även under kalla månader." },
-            { title: "Studentfest & möhippa", desc: "Skapa en plats där festen kan ta plats." },
+            { title: "Familjefest", desc: "En varm och trivsam miljö där hela familjen får plats." },
+            { title: "Studentfest", desc: "Telefon: +46 73 695 64 65" },
             { title: "Trädgårdsfest", desc: "Förvandla din trädgård till en festlokal." },
           ].map((u) => (
             <div key={u.title} className="rounded-2xl border border-border bg-card p-6">
@@ -112,10 +107,10 @@ function Home() {
         <h2 className="font-display text-4xl">Varför Tälthjältarna?</h2>
         <div className="mt-10 grid gap-6 md:grid-cols-2">
           {[
-            { t: "Kvalitet och variation", d: "Tält i flera storlekar och utföranden, alla i slitstarkt och väderbeständigt material — från 2 till 12 meter." },
-            { t: "Helhetslösning", d: "Inte bara tält — även möbler, belysning, värme och tillbehör som lyfter ditt evenemang." },
-            { t: "Lokal expertis", d: "Vi känner till området och anpassar uppställningen efter dina förutsättningar och väderlek." },
-            { t: "Flexibilitet", d: "Hyr för en dag, en helg eller längre. Vi anpassar oss efter ditt schema och behov." },
+            { t: "Personlig service", d: "Vi hjälper dig från planering till färdig fest." },
+            { t: "Smidighet och enkelhet", d: "Vi levererar, monterar och hämtar." },
+            { t: "För alla tillfällen", d: "Små privata fester eller stora event - vi löser det." },
+            { t: "Trygg kvalitet", d: "Stabila tält och utrustning som håller hög standard." },
           ].map((w) => (
             <div key={w.t} className="rounded-2xl border border-border bg-card p-7">
               <h3 className="font-display text-xl text-primary">{w.t}</h3>

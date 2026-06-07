@@ -7,15 +7,14 @@ export function SiteFooter() {
         <div>
           <h3 className="font-display text-xl text-primary">Tälthjältarna</h3>
           <p className="mt-3 text-sm text-muted-foreground">
-            Vi hyr ut partytält och evenemangstält i hela regionen — för bröllop,
-            födelsedagar, företagsevent och allt däremellan.
+            Vi täcker festen — partytält för bröllop, födelsedagar, företagsevent och allt däremellan.
           </p>
         </div>
         <div>
           <h4 className="text-sm font-semibold uppercase tracking-wider text-foreground">Kontakt</h4>
           <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
-            <li>Mejl: <a className="hover:text-primary" href="mailto:info@talthjaltarna.se">info@talthjaltarna.se</a></li>
-            <li>Telefon: <a className="hover:text-primary" href="tel:+460000000000">[Telefonnummer – fyll i]</a></li>
+            <li>Mejl: <a className="hover:text-primary" href="mailto:kontakt@talthjaltarna.se">kontakt@talthjaltarna.se</a></li>
+            <li>Telefon: <a className="hover:text-primary" href="tel:+46736956465">+46 73 695 64 65</a></li>
             <li>talthjaltarna.se</li>
           </ul>
         </div>

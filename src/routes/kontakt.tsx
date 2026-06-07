@@ -30,11 +30,11 @@ function Contact() {
           <ul className="mt-5 space-y-4 text-sm">
             <li>
               <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground">E-post</p>
-              <a href="mailto:info@talthjaltarna.se" className="text-base text-foreground hover:text-primary">info@talthjaltarna.se</a>
+              <a href="mailto:kontakt@talthjaltarna.se" className="text-base text-foreground hover:text-primary">kontakt@talthjaltarna.se</a>
             </li>
             <li>
               <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground">Telefon</p>
-              <span className="text-base text-foreground">[Telefonnummer — fyll i]</span>
+              <a href="tel:+46736956465" className="text-base text-foreground hover:text-primary">+46 73 695 64 65</a>
             </li>
             <li>
               <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground">Område</p>
