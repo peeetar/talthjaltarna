@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import familjAsset from "@/assets/familj.jpg.asset.json";
+import familjAsset from "@/assets/familj.webp.asset.json";
 
 export const Route = createFileRoute("/om-oss")({
   head: () => ({
