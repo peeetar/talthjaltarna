@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { ImagePlaceholder } from "@/components/ImagePlaceholder";
+import familjAsset from "@/assets/familj.jpg.asset.json";
 
 export const Route = createFileRoute("/om-oss")({
   head: () => ({
@@ -43,7 +43,12 @@ function About() {
             </p>
           </div>
         </div>
-        <ImagePlaceholder label="Bild på team eller uppställning" aspect="4 / 5" />
+        <img
+          src={familjAsset.url}
+          alt="Familjen bakom Tälthjältarna"
+          className="w-full rounded-xl object-cover"
+          style={{ aspectRatio: "4 / 5" }}
+        />
       </section>
 
       <section className="border-t border-border bg-card">
