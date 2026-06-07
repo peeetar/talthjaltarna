@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import familjAsset from "@/assets/familj.jpg.asset.json";
+import familjAsset from "@/assets/familj.webp.asset.json";
 
 export const Route = createFileRoute("/om-oss")({
   head: () => ({
@@ -48,6 +48,11 @@ function About() {
           alt="Familjen bakom Tälthjältarna"
           className="w-full rounded-xl object-cover"
           style={{ aspectRatio: "4 / 5" }}
+          width={800}
+          height={1000}
+          loading="lazy"
+          decoding="async"
+          sizes="(min-width: 768px) 50vw, 100vw"
         />
       </section>
 
