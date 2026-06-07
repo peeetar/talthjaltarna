@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ImagePlaceholder } from "@/components/ImagePlaceholder";
+import heroTent from "@/assets/hero-tent.webp.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -47,7 +48,17 @@ function Home() {
               <div><p className="font-display text-2xl text-primary">Lokalt</p><p className="text-muted-foreground">Levereras</p></div>
             </div>
           </div>
-          <ImagePlaceholder label="Hero — vitt partytält på sommaräng" aspect="4 / 5" />
+          <img
+            src={heroTent.url}
+            alt="Vitt partytält uppställt i sommarträdgård med långbord och stolar"
+            className="w-full rounded-xl object-cover"
+            style={{ aspectRatio: "4 / 5" }}
+            width={1266}
+            height={1375}
+            loading="eager"
+            decoding="async"
+            sizes="(min-width: 768px) 50vw, 100vw"
+          />
         </div>
       </section>
 
