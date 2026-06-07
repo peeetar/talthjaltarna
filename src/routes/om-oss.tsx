@@ -22,16 +22,26 @@ function About() {
         <div>
           <span className="text-sm font-medium uppercase tracking-wider text-accent-foreground">Om oss</span>
           <h1 className="mt-3 font-display text-5xl">Lokala hjältar med tält i bagaget</h1>
-          <p className="mt-5 text-lg text-muted-foreground">
-            Tälthjältarna är ett lokalt företag som hyr ut partytält och
-            evenemangstält. Vi vet hur viktigt det är att festen sitter — från
-            första uppställning till sista hämtning. Vårt mål är att din dag ska
-            bli enkel, snygg och oförglömlig.
-          </p>
-          <p className="mt-4 text-muted-foreground">
-            [Placeholder för bolagsbeskrivning — fyll i historia, grundare,
-            referenskunder, certifieringar eller annan information ni vill lyfta.]
-          </p>
+          <div className="mt-5 space-y-4 text-muted-foreground">
+            <p>
+              Det hela började med en studentfest och en idé.
+            </p>
+            <p>
+              Inför vår dotters stora dag köptes ett partytält för att skapa den perfekta platsen för firandet. Efter festen väcktes tanken – kanske kunde tältet få komma till användning fler gånger och hjälpa andra skapa sina egna minnesvärda stunder.
+            </p>
+            <p>
+              Intresset visade sig vara större än väntat, och det blev starten på Tälthjältarna.
+            </p>
+            <p>
+              Idag är vi ett familjeföretag som brinner för att hjälpa människor skapa plats för livets alla firanden. Vi tar hand om hela processen – från första kontakt till färdig uppställning. Med personlig service, noggrann montering och ett genuint engagemang vill vi göra det enkelt för våra kunder att fokusera på det viktigaste: att njuta av stunden.
+            </p>
+            <p>
+              Bakom Tälthjältarna står en familj där alla bidrar på sitt sätt. Vi möter våra kunder, bygger upp tälten och ser till att varje detalj finns på plats. Samtidigt arbetar vi med att utveckla vår närvaro och göra det enkelt att boka och hitta rätt lösning.
+            </p>
+            <p>
+              För oss handlar det inte bara om tält – det handlar om människorna, ögonblicken och minnena som skapas under dem.
+            </p>
+          </div>
         </div>
         <ImagePlaceholder label="Bild på team eller uppställning" aspect="4 / 5" />
       </section>
