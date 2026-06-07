@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ImagePlaceholder } from "@/components/ImagePlaceholder";
+import heroTent from "@/assets/hero-tent.webp.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
