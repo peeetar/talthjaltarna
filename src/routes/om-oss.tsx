@@ -46,10 +46,10 @@ function About() {
         <img
           src={familjAsset.url}
           alt="Familjen bakom Tälthjältarna"
-          className="w-full rounded-xl object-cover"
-          style={{ aspectRatio: "4 / 5" }}
-          width={800}
-          height={1000}
+          className="w-full rounded-xl"
+          style={{ aspectRatio: "1920 / 1276" }}
+          width={1920}
+          height={1276}
           loading="lazy"
           decoding="async"
           sizes="(min-width: 768px) 50vw, 100vw"
